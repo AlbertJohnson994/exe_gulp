@@ -1,0 +1,27 @@
+{
+  "name": "exercicio-gulp",
+  "version": "1.0.0",
+  "description": "A Gulp project for automating tasks",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "gulp": "gulp",
+    "exercicio_gulp": "gulp",
+    "sass": "gulp sass",
+    "images": "gulp images",
+    "javascript": "gulp javascript"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^7.1.0",
+    "gulp-obfuscate": "^0.2.9",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.81.0"
+  }
+}
